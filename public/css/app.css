@@ -1,0 +1,131 @@
+body {
+	font-family: Raleway;
+
+	margin: 10px 30px;
+
+	color: #555555;
+	background: #ff5252;
+}
+
+#homepage {
+	max-width: 800px;
+	margin: 60px auto;
+	padding: 10px 20px;
+
+	border-radius: 4px;
+	background: #fdfdfd;
+	box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+
+input[type='text'] {
+	display: block;
+
+	width: 300px;
+	margin: 20px 0;
+	padding: 10px;
+
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+}
+
+label {
+	font-weight: bold;
+}
+
+.title {
+	font-size: 48px;
+
+	text-align: center;
+
+	color: #ffffff;
+}
+
+#homepage h1 {
+	text-align: center;
+}
+
+form {
+	max-width: 350px;
+	margin: 30px auto;
+}
+
+input[type='submit'] {
+	font-size: 18px;
+
+	display: block;
+
+	width: 200px;
+	margin: 0 auto;
+	padding: 10px;
+
+	cursor: pointer;
+
+	color: #ffffff;
+	border: 0;
+	border-radius: 4px;
+	background: #555555;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font-size: 18px;
+	font-weight: bold;
+
+	margin: 10px 0;
+	padding: 15px 0;
+
+	list-style-type: none;
+
+	border-radius: 4px;
+	background: #eeeeee;
+}
+
+span {
+	display: inline-block;
+
+	margin: 0 20px;
+}
+
+span.dist {
+	float: right;
+
+	color: green;
+}
+
+span.true {
+	width: 10px;
+	height: 10px;
+
+	border-radius: 10px;
+	background: green;
+}
+
+span.false {
+	width: 10px;
+	height: 10px;
+
+	border-radius: 10px;
+	background: #ff5252;
+}
+
+button {
+	display: inline-block;
+	float: right;
+
+	padding: 5px 10px;
+
+	cursor: pointer;
+
+	color: #ffffff;
+	border: 0;
+	border-radius: 4px;
+	background: green;
+}
+
+button.false {
+	display: none;
+}
